@@ -1,0 +1,61 @@
+http://localhost/IT_Project/signUp.php
+
+http://localhost/IT_Project/index.php
+
+http://localhost/IT%20Project/start.php
+
+
+INSERT INTO phone VALUES ('htc','htc1','iphone','15');
+INSERT INTO phone VALUES ('htc','htc2','845','16');
+INSERT INTO phone VALUES ('htc','htc3','6574','17');
+INSERT INTO phone VALUES ('htc','htc4','7568','18');
+INSERT INTO phone VALUES ('htc','htc5','346','19');
+
+INSERT INTO phone VALUES ('samsung','samsung1','254','15');
+INSERT INTO phone VALUES ('samsung','samsung2','263','16');
+INSERT INTO phone VALUES ('samsung','samsung3','9567','17');
+INSERT INTO phone VALUES ('samsung','samsung4','235','18');
+INSERT INTO phone VALUES ('samsung','samsung5','3214','19');
+
+INSERT INTO phone VALUES ('oppo','oppo1','2345','15');
+INSERT INTO phone VALUES ('oppo','oppo2','8569','16');
+INSERT INTO phone VALUES ('oppo','oppo3','1245','17');
+INSERT INTO phone VALUES ('oppo','oppo4','235','18');
+INSERT INTO phone VALUES ('oppo','oppo5','546','19');
+
+INSERT INTO phone VALUES ('nokia','nokia1','464','15');
+INSERT INTO phone VALUES ('nokia','nokia2','235','16');
+INSERT INTO phone VALUES ('nokia','nokia3','957','17');
+INSERT INTO phone VALUES ('nokia','nokia4','235','18');
+INSERT INTO phone VALUES ('nokia','nokia5','7568','19');
+
+INSERT INTO phone VALUES ('oneplus','oneplus1','123','15');
+INSERT INTO phone VALUES ('oneplus','oneplus2','9765','16');
+INSERT INTO phone VALUES ('oneplus','oneplus3','4643','17');
+INSERT INTO phone VALUES ('oneplus','oneplus4','235','18');
+INSERT INTO phone VALUES ('oneplus','oneplus5','2352','19');
+
+INSERT INTO phone VALUES ('honor','honor1','654','15');
+INSERT INTO phone VALUES ('honor','honor2','1334','16');
+INSERT INTO phone VALUES ('honor','honor3','8765','17');
+INSERT INTO phone VALUES ('honor','honor4','235','18');
+INSERT INTO phone VALUES ('honor','honor5','978','19');
+
+INSERT INTO phone VALUES ('huawei','huawei1','1234','15');
+INSERT INTO phone VALUES ('huawei','huawei2','967','16');
+INSERT INTO phone VALUES ('huawei','huawei3','8534','17');
+INSERT INTO phone VALUES ('huawei','huawei4','235','18');
+INSERT INTO phone VALUES ('huawei','huawei5','4467','19');
+
+INSERT INTO phone VALUES ('sony','sony1','7536','15');
+INSERT INTO phone VALUES ('sony','sony2','2432','16');
+INSERT INTO phone VALUES ('sony','sony3','676','17');
+INSERT INTO phone VALUES ('sony','sony4','235','18');
+INSERT INTO phone VALUES ('sony','sony5','643','19');
+
+INSERT INTO phone VALUES ('iphone','iphone1','976','15');
+INSERT INTO phone VALUES ('iphone','iphone2','867','16');
+INSERT INTO phone VALUES ('iphone','iphone3','324','17');
+INSERT INTO phone VALUES ('iphone','iphone4','235','18');
+INSERT INTO phone VALUES ('iphone','iphone5','7865','19');
+

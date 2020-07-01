@@ -1,0 +1,252 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+/*  Glonbal  */
+.navbar,
+.header,
+.services,
+.our-team,
+.testim,
+.projects,
+.footer {
+    min-width: 1024px;
+}
+
+
+
+
+.navbar {
+    font-size: 18px;
+    height: 0;
+    color: #FFF;
+    position: relative;
+    z-index: 2;
+}
+
+/* ctrl + alt + K :: color */
+.navbar .brand {
+    float: left;
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.navbar h2 {
+    margin-top: 25px;
+    color: aqua;
+    font-weight: normal;
+}
+
+.navbar .links {
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navbar ul li.active a,
+.navbar ul li:hover a {
+    color: #1ABC9A;
+}
+
+.navbar ul li.active,
+.navbar ul li:hover {
+    border-bottom: 2px solid #1ABC9A;
+}
+
+
+.header {
+    background: url('cover.jpg');
+    position: relative;
+    color: #FFF;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header .overLay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.header .bx-wrapper {
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100%;
+    text-align: center;
+}
+
+.header .bx-wrapper .bx-viewport {
+    height: 100% !important;
+}
+
+.header .slider {
+    height: 100%;
+}
+
+.header .slider li {
+    display: block;
+}
+
+.header .slider li h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.header .slider li h2 span {
+    color: #1ABC9A;
+}
+
+.services {
+    padding: 80px 20px 40px;
+}
+
+h2 {
+    margin: 0 0 50px;
+    font-weight: normal;
+}
+
+
+.projects {
+    padding: 60px 0;
+    height: 1024px;
+}
+
+.projects ul {
+    margin-top: 50px;
+}
+
+.projects ul li {
+    display: inline-block;
+    border: 2px solid #C7C7C7;
+    padding: 10px 30px;
+    color: #C7C7C7;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.projects ul li.active {
+    background-color: #1ABC9A;
+    color: #FFF;
+    border: 2px solid #1ABC9A;
+}
+
+.projects .gallery {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.projects .row > div {
+    width: 32.666666%;
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.projects .row > div img {
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.projects .gallery .row > div:nth-child(2) {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.projects .over {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 94%;
+    height: 93%;
+    background-color: RGBA(51,186,237,0.8);
+    line-height: 340px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.projects .over button{
+    background-color: transparent;
+    border: 1px solid #FFF;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    line-height: 2;
+}
+.projects .over button:hover {
+    color: #33BAED;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.projects .gallery .row .heart {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    display: none;
+}
+
+.projects .gallery .row > div:hover .over,
+.projects .gallery .row > div:hover .heart {
+    display: block;
+}
+
+.projects .shuffle li {
+    cursor: pointer;
+}
+
+.projects .mix {
+    display: none;
+}
+
+/* End my Framework */
